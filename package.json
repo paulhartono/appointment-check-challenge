@@ -1,0 +1,37 @@
+{
+  "name": "appointment-check-challenge",
+  "version": "1.0.0",
+  "description": "Appointment Check Challenge App",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "jest",
+    "test:coverage": "jest --coverage",
+    "build": "rm -rf dist/ && tsc",
+    "serve": "node dist/index.js",
+    "start": "npm run build && npm run serve",
+    "dev": "tsnd src/index.ts"
+  },
+  "keywords": [
+    "Tennis",
+    "Scoring"
+  ],
+  "author": "Paul Hartono <paul.hartono@gmail.com>",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/jest": "^24.0.23",
+    "jest": "^24.9.0",
+    "ts-jest": "^24.2.0",
+    "ts-node-dev": "^1.0.0-pre.44",
+    "@types/node": "^13.11.0",
+    "@typescript-eslint/eslint-plugin": "^2.27.0",
+    "@typescript-eslint/parser": "^2.27.0",
+    "eslint": "^6.8.0",
+    "eslint-config-prettier": "^6.10.1",
+    "eslint-plugin-prettier": "^3.1.2",
+    "prettier": "^2.0.4",
+    "typescript": "^3.8.3"
+  },
+  "dependencies": {
+    "dotenv": "^8.2.0"
+  }
+}
