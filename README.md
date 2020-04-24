@@ -1,4 +1,4 @@
-# tennis-scoring-challenge
+# appointment-check-challenge
 
 ## Overview
 
