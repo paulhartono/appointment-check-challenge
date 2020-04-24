@@ -36,4 +36,5 @@ Alternatively, you can run this project using docker as described below
 ## Some Notes
 
 - This Code does not include any CLI or GUI.
+- Dockerfile may not be optimised for PROD build as it includes all devDependencies such as prettier, typescript, etc
 - the use of tsnd (ts-node-dev) is unnecessary for this project, but i purposely left it there as it is good for ts type project in future (perhaps with nodemon too for development)
