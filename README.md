@@ -7,10 +7,10 @@ Alternatively, you can run this project using docker as described below
 
 ## Environment Variables
 
-`APPOINTMENT1_START` is the appointment 1 start time (recognised date string parser ONLY, such as yyyy-mm-dd hh:mm:ss)
-`APPOINTMENT2_START` is the appointment 2 start time (recognised date string parser ONLY, such as yyyy-mm-dd hh:mm:ss)
-`APPOINTMENT1_DURATION` This will set the appointment 1 duration in minutes
-`APPOINTMENT2_DURATION` This will set the appointment 2 duration in minutes
+- `APPOINTMENT1_START` is the appointment 1 start time (recognised date string parser ONLY, such as yyyy-mm-dd hh:mm:ss)
+- `APPOINTMENT2_START` is the appointment 2 start time (recognised date string parser ONLY, such as yyyy-mm-dd hh:mm:ss)
+- `APPOINTMENT1_DURATION` This will set the appointment 1 duration in minutes
+- `APPOINTMENT2_DURATION` This will set the appointment 2 duration in minutes
 
 ## Using Docker
 
